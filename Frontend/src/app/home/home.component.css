@@ -1,0 +1,47 @@
+.absolute-top {
+  background: url("https://www.dailyexcelsior.com/wp-content/uploads/2019/11/software.jpg");
+  position: relative;
+  height: 580px;
+  background-position: top;
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(17, 17, 17, 0.733);
+  /* opacity: 0.6; */
+  color: white;
+}
+.book-img {
+  height: 250px;
+  width: 100%;
+  border-radius: 10px;
+}
+.card {
+  border: none;
+  cursor: pointer;
+}
+.card:hover{
+  box-shadow: 4px 8px 5px 3px gray;
+  animation: ease-in-out 0.5;
+}
+.civil,
+.others {
+  position: relative;
+  top: 24px;
+}
+/* footer  */
+.developer-text{
+  /* position: absolute;
+  right: 25px;
+  color: whitesmoke; */
+}
+@media (max-width: 1188px) {
+  .center-card {
+    justify-content: center;
+  }
+}

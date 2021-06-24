@@ -1,0 +1,7 @@
+.navbar-fixed{
+/* position: fixed; */
+position: sticky;
+z-index: 1;
+top: 0;
+margin: 0;
+}
